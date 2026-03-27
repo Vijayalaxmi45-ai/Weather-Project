@@ -36,8 +36,8 @@
         <p class="text-secondary mb-5">Access deep data for over 100,000+ cities and regions worldwide.</p>
 
         <div class="search-container mx-auto" style="max-width: 700px;">
-            <div class="input-group input-group-lg shadow-sm border p-1 rounded-4 bg-white overflow-hidden">
-                <input id="cityInput" type="text" class="form-control border-0 px-4 search-input" placeholder="Search major cities (e.g., Paris, Mumbai, Tokyo, NYC)...">
+            <div class="input-group input-group-lg shadow-sm border p-1 rounded-4 overflow-hidden" style="background: var(--input-bg);">
+                <input id="cityInput" type="text" class="form-control border-0 px-4 search-input" placeholder="Search major cities (e.g., Paris, Mumbai, Tokyo, NYC)..." style="background: var(--input-bg);">
                 <button class="btn btn-premium px-5" onclick="getWeather()">Search</button>
             </div>
             <div id="search-history" class="mt-4">
