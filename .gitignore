@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.env
+dist/
+build/
+.next/
+.hintrc
+package-lock.json
